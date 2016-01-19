@@ -13,6 +13,7 @@ var config = {
 		}
 	},
 
+    framework: 'yui',
 	startBrowser: 'firefox',
 
 	// secure: true,
