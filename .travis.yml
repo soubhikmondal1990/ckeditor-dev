@@ -3,7 +3,7 @@ node_js:
   - "4.0"
 sudo: false
 before_install:
-  - npm install
+  - npm install -g benderjs-cli
   
 before_script:
   - bender init
