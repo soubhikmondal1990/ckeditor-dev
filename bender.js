@@ -13,7 +13,8 @@ var config = {
 		}
 	},
 
-	framework: 'yui',
+	framework: 'jasmine',
+	startBrowser: 'firefox',
 
 	// secure: true,
 	privateKey: 'tests/_benderjs/ssl/key.pem',
