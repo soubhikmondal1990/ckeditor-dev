@@ -4,5 +4,6 @@ node_js:
 sudo: false
 before_install:
   - npm install -g benderjs-cli
-  - bender init
   
+before_script:
+  - bender init
