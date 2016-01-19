@@ -40,7 +40,8 @@ var config = {
 		'benderjs-yui',
 		'benderjs-sinon',
 		'benderjs-jquery',
-		'tests/_benderjs/ckeditor'
+		'tests/_benderjs/ckeditor',
+		'benderjs-jasmine'
 	],
 
 	tests: {
