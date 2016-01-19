@@ -13,7 +13,6 @@ var config = {
 		}
 	},
 
-	framework: 'jasmine',
 	startBrowser: 'firefox',
 
 	// secure: true,
@@ -41,7 +40,6 @@ var config = {
 		'benderjs-sinon',
 		'benderjs-jquery',
 		'tests/_benderjs/ckeditor',
-		'benderjs-jasmine'
 	],
 
 	tests: {
