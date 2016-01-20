@@ -17,7 +17,7 @@ var config = {
     privateKey: 'tests/_benderjs/ssl/key.pem',
  	certificate: 'tests/_benderjs/ssl/cert.pem',
  	
- 	//startBrowser: 'phantomjs 1.9.7',
+ 	startBrowser: 'chrome',
 
 	coverage: {
 		paths: [
