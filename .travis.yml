@@ -16,11 +16,10 @@ before_install:
   - export PATH=$PWD/travis-phantomjs:$PATH
   - "npm config set spin false"
   - "npm install -g npm@^2"
-  -  npm install -g grunt-cli
   
 before_script:
+  - npm install -g benderjs-cli
   - npm install
-  - grunt build
 
 script:
   - npm test
