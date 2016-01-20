@@ -16,6 +16,11 @@ var config = {
     framework: 'yui',
     privateKey: 'tests/_benderjs/ssl/key.pem',
  	certificate: 'tests/_benderjs/ssl/cert.pem',
+ 	
+ 	plugins: ['benderjs-yui'],
+ 	
+ 	//startBrowser: 'firefox',
+ 	startBrowser: 'phantomjs 1.9.7'
 
 	coverage: {
 		paths: [
