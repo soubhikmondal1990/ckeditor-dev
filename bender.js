@@ -14,10 +14,11 @@ var config = {
 	},
 
     framework: 'yui',
+    secure: true,
     privateKey: 'tests/_benderjs/ssl/key.pem',
  	certificate: 'tests/_benderjs/ssl/cert.pem',
  	
- 	startBrowser: 'chrome',
+ 	startBrowser: 'firefox',
 
 	coverage: {
 		paths: [
