@@ -22,7 +22,7 @@
 		"cksource-samples-framework": "^1.0.1"
 	},
 	"scripts": {
-		"test": "grunt test"
+		"test": "./node_modules/benderjs-yui/vendor/yui-3.16.0-test.min.js"
 	},
 	
 	"author": "CKSource (http://cksource.com/)",
