@@ -4,10 +4,10 @@ node_js:
   - "iojs"
 
 sudo: false
+
 before_install:
   - "npm config set spin false"
   - "npm install -g npm@^2"
-  - npm install -g benderjs-cli
   
 before_install:
   - mkdir travis-phantomjs
@@ -16,9 +16,8 @@ before_install:
   - export PATH=$PWD/travis-phantomjs:$PATH
   
 install:
-  - npm install -g bower
+  - npm install -g benderjs-cli
   - npm install
-  - bower install
 
 before_script:
   - bender init
