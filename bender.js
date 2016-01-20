@@ -17,8 +17,6 @@ var config = {
     secure: true,
     privateKey: 'tests/_benderjs/ssl/key.pem',
  	certificate: 'tests/_benderjs/ssl/cert.pem',
- 	
- 	startBrowser: 'firefox',
 
 	coverage: {
 		paths: [
